@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quran</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Include FontAwesome or Heroicons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body class="bg-white font-sans m-6">
+   
+    <nav class="bg-blue-600 text-white p-8 container flex items-center justify-between mt-5">
+    <!-- Nav Bar -->
+           <div class="relative group">
+            <button id="menu-button" class="text-white focus:outline-none h-12">
+                <i class="fas fa-bars"></i>
+            </button>
+            <!-- <ul class="mt-8">
+                <li>
+                    <a
+                        href="#"
+                        class="block px-4 py-2 hover:bg-indigo-800 rounded-md"
+                        >Quran</a
+                    >
+                    <a
+                        href="#"
+                        class="block px-4 py-2 hover:bg-indigo-800 rounded-md"
+                        >Hadees</a
+                    >
+                    <a
+                        href="#"
+                        class="block px-4 py-2 hover:bg-indigo-800 rounded-md"
+                        >More</a
+                    >
+                </li> -->
+            </ul>
+           </div>
+           <h1 class="text-3xl font-bold">The Quran</h1>
+           <img class="h-16 w-16" src="https://cdn.shopify.com/s/files/1/0098/5664/7227/files/wordmark-06_large.jpg?v=1541117248" alt="">
+        </nav>
+        <!-- Main Content -->
+    <main class="container mx-auto p-8">
+        <h1 class="text-3xl font-semibold mb-4">Search</h1>
+        <div class="flex justify-between">
+            <!-- Search Bar -->   
+            <div class="w-2/3 pr-4">
+                <select class="border p-2 rounded w-full mb-4">
+                    <option value="sura">Search by Surah</option>
+                    <option value="juz">Search by Juz</option>
+                </select>
+            </div>
+            <!-- Language Buttons -->
+            <div class="w-1/3">
+                <button class="bg-blue-500 text-white font-semibold py-2 px-4 rounded mr-4 hover:bg-blue-600 transition duration-200">
+                    English
+                </button>
+                <button class="bg-blue-500 text-white font-semibold py-2 px-4 rounded hover:bg-blue-600 transition duration-200">
+                اردو  </button>
+            </div>
+        </div>
+        <p class="mt-5 text-2xl">
+            The Quran is the holy book of Islam, believed to be the word of God as revealed to the Prophet Muhammad.
+            It is a sacred text and a source of guidance for millions of people around the world.
+        </p>
+    </main>
+    <!-- hero section -->
+    <section class="flex justify-evenly text">
+        <div>
+            <img class="h-96 w-auto" src="https://upload.wikimedia.org/wikipedia/commons/e/e9/%D8%A3%D8%A8%D9%88_%D8%A7%D9%84%D8%A3%D8%B9%D9%84%D9%89_%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%88%D8%AF%D9%8A_%D9%88%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%84%D9%87_%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D9%84_%28cropped%29.jpg" alt="">
+            <h2 class="text-black text-3xl text-bold justify-evenly mt-5">Syed Abul Ala Maududi </h2>
+        </div>
+        <p class="h-auto w-full text-black  pl-8 text-xl font-semibold ">Maulana Maududi, whose full name was Abul Ala Maududi, was a prominent Islamic scholar, writer, and political thinker of the 20th century. He was born in 1903 in British India and played a significant role in the development of contemporary Islamic political thought. Maududi founded the Jamaat-e-Islami, a conservative Islamic political party in South Asia, and authored numerous books and articles that advocated for the implementation of Islamic law in the modern world. His ideas had a lasting impact on Islamic political movements and continue to be studied and debated by scholars and activists. Maududi's work is characterized by his vision of an Islamic state based on his interpretation of the Quran and the Hadith, and his writings have influenced various Islamic political movements worldwide.</p>
+
+    </section>
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white py-4 mt-5">
+        <div class="container mx-auto text-center">
+            &copy; 2023 The Quran. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
